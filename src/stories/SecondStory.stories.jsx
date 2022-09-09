@@ -6,7 +6,7 @@ export default {
 };
 
 // export const Default = () => <Example text="some sample text" />;
-const Template = (args) => <Example {...args} />;
+const Template = (args) => <SecondStory {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
